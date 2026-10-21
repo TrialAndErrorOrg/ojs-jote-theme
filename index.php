@@ -7,16 +7,13 @@
 /**
  * @file plugins/themes/jote/index.php
  *
- * Copyright (c) 2022-2023 Thomas F. K. Jorna, Center of Trial and Error 
+ * Copyright (c) 2022-2026 Thomas F. K. Jorna, Center of Trial and Error 
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * @ingroup plugins_themes_default
- * @brief Wrapper for default theme plugin.
+ * @ingroup plugins_themes_jote
+ * @brief Wrapper for the JOTE theme plugin.
  *
  */
 
-require_once('JOTEThemePlugin.inc.php');
-
-return new JOTEThemePlugin();
-
+return new \APP\plugins\themes\jote\JOTEThemePlugin();
 
